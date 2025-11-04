@@ -1,0 +1,9 @@
+dist
+build
+node_modules
+.github
+*.md
+*.json
+pnpm-lock.yaml
+package-lock.json
+
