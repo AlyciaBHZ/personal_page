@@ -75,7 +75,7 @@ export function Projects() {
               <Link
                 key={project.id}
                 to={`/projects/${project.slug}`}
-                className="group flex flex-col gap-3 rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#1C1C2E] p-4 transition-all hover:shadow-lg hover:border-primary/50 dark:hover:border-primary/50 hover:-translate-y-1 animate-on-scroll"
+                className="group flex flex-col gap-3 rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#1C1C2E] p-4 transition-all hover:shadow-lg hover:border-primary/50 dark:hover:border-primary/50 hover:-translate-y-1"
               >
                 {/* Project Image */}
                 <div className="overflow-hidden rounded-lg">
