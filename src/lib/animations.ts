@@ -40,9 +40,9 @@ export const fadeInUp = (
 ) => {
   const { delay = 0, duration = 0.8 } = options;
 
-  return gsap.from(element, {
-    opacity: 0,
-    y: 30,
+  return gsap.to(element, {
+    opacity: 1,
+    y: 0,
     duration,
     delay,
     ease: 'power3.out',

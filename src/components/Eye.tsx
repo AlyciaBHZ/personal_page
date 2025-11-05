@@ -88,3 +88,4 @@ export function Eye({ className = '', isRightEye = false }: EyeProps) {
   );
 }
 
+

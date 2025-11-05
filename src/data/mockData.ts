@@ -3,6 +3,29 @@ import type { Project, Thought } from '../lib/types';
 export const mockProjects: Project[] = [
   {
     id: '1',
+    slug: 'philo-drinking-game',
+    name: 'Philo Drinking Game',
+    description: 'An interactive party card game with philosophical twists and drinking challenges.',
+    longDescription:
+      'Philo Drinking Game is a web-based party game that combines philosophical questions with drinking challenges. Players draw cards from different categories including philosophical debates, truth or dare, and creative challenges. Built with modern React and featuring a beautiful UI inspired by card game aesthetics.',
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+    category: 'Web App',
+    imageUrl:
+      'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80',
+    githubUrl: 'https://github.com/AlyciaBHZ/philo-drinking',
+    websiteUrl: 'https://philo.lexaverse.dev',
+    featured: true,
+    role: 'Creator & Developer',
+    client: 'Personal Project',
+    timeline: '2 Weeks',
+    services: ['Web Development', 'Game Design', 'UI/UX'],
+    techStack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'shadcn/ui'],
+    outcomes:
+      'Created an engaging party game with over 100 unique cards across multiple categories. Features smooth animations, responsive design, and an intuitive user interface perfect for social gatherings.',
+    createdAt: '2025-11-04',
+  },
+  {
+    id: '2',
     slug: 'e-commerce-platform',
     name: 'E-commerce Platform',
     description: 'A full-stack web application built with React and Node.js.',
@@ -14,7 +37,7 @@ export const mockProjects: Project[] = [
       'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80',
     githubUrl: 'https://github.com/yourusername/ecommerce',
     websiteUrl: 'https://ecommerce-demo.example.com',
-    featured: true,
+    featured: false,
     role: 'Lead Developer',
     client: 'Personal Project',
     timeline: '3 Months',
@@ -25,7 +48,7 @@ export const mockProjects: Project[] = [
     createdAt: '2023-10-01',
   },
   {
-    id: '2',
+    id: '3',
     slug: 'task-management-app',
     name: 'Task Management App',
     description: 'A productivity tool for teams to manage tasks and workflows.',
@@ -33,11 +56,11 @@ export const mockProjects: Project[] = [
     category: 'Web App',
     imageUrl:
       'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80',
-    featured: true,
+    featured: false,
     createdAt: '2023-09-15',
   },
   {
-    id: '3',
+    id: '4',
     slug: 'design-system',
     name: 'Design System',
     description: 'A comprehensive component library created in Figma.',
@@ -48,7 +71,7 @@ export const mockProjects: Project[] = [
     createdAt: '2023-08-20',
   },
   {
-    id: '4',
+    id: '5',
     slug: 'mobile-weather-app',
     name: 'Mobile Weather App',
     description: 'A native mobile application for checking weather forecasts.',
@@ -59,7 +82,7 @@ export const mockProjects: Project[] = [
     createdAt: '2023-07-10',
   },
   {
-    id: '5',
+    id: '6',
     slug: 'data-visualization-dashboard',
     name: 'Data Visualization Dashboard',
     description: 'An analytics dashboard for visualizing complex datasets.',
@@ -70,7 +93,7 @@ export const mockProjects: Project[] = [
     createdAt: '2023-06-05',
   },
   {
-    id: '6',
+    id: '7',
     slug: 'portfolio-website-v1',
     name: 'Portfolio Website V1',
     description: "The first version of my personal portfolio, built with Next.js.",
