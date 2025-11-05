@@ -10,8 +10,7 @@ export const mockProjects: Project[] = [
       'Philo Drinking Game is a web-based party game that combines philosophical questions with drinking challenges. Players draw cards from different categories including philosophical debates, truth or dare, and creative challenges. Built with modern React and featuring a beautiful UI inspired by card game aesthetics.',
     tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
     category: 'Web App',
-    imageUrl:
-      'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80',
+    imageUrl: '/philo-game.jpg',
     githubUrl: 'https://github.com/AlyciaBHZ/philo-drinking',
     websiteUrl: 'https://philo.lexaverse.dev',
     featured: true,
