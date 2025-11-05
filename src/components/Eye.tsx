@@ -71,12 +71,12 @@ export function Eye({ className = '', isRightEye = false }: EyeProps) {
   return (
     <div
       ref={eyeRef}
-      className={`relative shrink-0 size-[204px] rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden ${className}`}
+      className={`relative shrink-0 size-[204px] rounded-full bg-slate-800 dark:bg-slate-200 overflow-hidden ${className}`}
       data-name="eye"
     >
       {/* Pupil */}
       <div
-        className="absolute bg-black dark:bg-white rounded-full size-[76px]"
+        className="absolute bg-white dark:bg-black rounded-full size-[76px]"
         style={{
           top: '50%',
           left: '50%',
