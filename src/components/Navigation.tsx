@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Button } from './ui/button';
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
