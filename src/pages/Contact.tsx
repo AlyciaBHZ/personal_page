@@ -125,7 +125,7 @@ export function Contact() {
           </div>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/wenlin-zhang-4978891b3/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center w-12 h-12 bg-gray-100 hover:bg-gray-200 dark:bg-white/5 dark:hover:bg-white/10 rounded-full transition-colors text-gray-600 dark:text-gray-300"
@@ -136,7 +136,7 @@ export function Contact() {
               </svg>
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/AlyciaBHZ"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center w-12 h-12 bg-gray-100 hover:bg-gray-200 dark:bg-white/5 dark:hover:bg-white/10 rounded-full transition-colors text-gray-600 dark:text-gray-300"
@@ -147,11 +147,11 @@ export function Contact() {
               </svg>
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:lexa@lexaverse.dev"
               className="flex items-center gap-2 h-12 px-5 bg-gray-100 hover:bg-gray-200 dark:bg-white/5 dark:hover:bg-white/10 rounded-full transition-colors text-gray-600 dark:text-gray-300"
             >
               <span className="material-symbols-outlined text-xl">mail</span>
-              <span className="text-sm font-medium">your.email@example.com</span>
+              <span className="text-sm font-medium">lexa@lexaverse.dev</span>
             </a>
           </div>
         </div>
