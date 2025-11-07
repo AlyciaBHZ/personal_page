@@ -24,6 +24,28 @@ export const mockProjects: Project[] = [
     createdAt: '2025-11-04',
   },
   {
+    id: '1.5',
+    slug: 'xiao-liu-ren-divination',
+    name: 'Xiao Liu Ren Divination Tool',
+    description: 'A modern web-based divination tool for traditional Chinese Xiao Liu Ren (小六壬) fortune-telling.',
+    longDescription:
+      'Xiao Liu Ren Divination Tool is a comprehensive web application that brings the ancient Chinese divination method into the modern era. It implements the complete Six Ren calculation algorithm with six palace layouts (大安、流连、速喜、赤口、小吉、空亡), five elements correspondence, twelve time periods, and divine creature annotations. Built with React and TypeScript, it features a clean, minimalist design that respects traditional aesthetics while providing instant calculations and detailed user guidance.',
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'I18n'],
+    category: 'Web App',
+    imageUrl: '/mysterious-game.png',
+    githubUrl: 'https://github.com/AlyciaBHZ/mysterious',
+    websiteUrl: 'https://mysterious.lexaverse.dev',
+    featured: true,
+    role: 'Creator & Developer',
+    client: 'Personal Project',
+    timeline: '1 Week',
+    services: ['Web Development', 'Algorithm Implementation', 'UI/UX'],
+    techStack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'shadcn/ui'],
+    outcomes:
+      'Created a functional divination tool that accurately implements the Xiao Liu Ren algorithm with an intuitive interface. Features include real-time calculation, responsive design, built-in user manual, and support for all twelve time periods with complete five elements and divine creature correspondences.',
+    createdAt: '2025-11-07',
+  },
+  {
     id: '2',
     slug: 'e-commerce-platform',
     name: 'E-commerce Platform',
