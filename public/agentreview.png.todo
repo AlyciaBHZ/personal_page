@@ -1,0 +1,9 @@
+TODO: Copy project.png from agentreview/public/project.png
+
+This file is a placeholder. Replace with actual project banner image.
+
+Steps:
+1. Create project.png in agentreview/public/ directory
+2. Run: Copy-Item "..\agentreview\public\project.png" "public\agentreview.png"
+3. Delete this .todo file
+

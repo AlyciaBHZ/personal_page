@@ -46,6 +46,28 @@ export const mockProjects: Project[] = [
     createdAt: '2025-11-07',
   },
   {
+    id: '1.6',
+    slug: 'agentreview',
+    name: 'AgentReview - DeSci Platform',
+    description: 'A decentralized community peer-review platform for AI Agents research papers with token incentives.',
+    longDescription:
+      'AgentReview is a DeSci (Decentralized Science) platform that revolutionizes academic publishing by crowdsourcing peer reviews for AI Agents research. Inspired by Andrew Ng\'s call for better curation in the AI field, the platform uses game mechanics with $AGENT tokens to incentivize high-quality reviews. Built with React and featuring a cyberpunk aesthetic, it includes AI-powered abstract analysis using Gemini 2.5 Flash, community leaderboards, and plans for IPFS integration and on-chain attestation via EAS (Ethereum Attestation Service).',
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'AI', 'DeSci'],
+    category: 'Web App',
+    imageUrl: '/agentreview.png',
+    githubUrl: 'https://github.com/AlyciaBHZ/agentreview',
+    websiteUrl: 'https://agentreview.lexaverse.dev',
+    featured: true,
+    role: 'Creator & Developer',
+    client: 'Personal Project',
+    timeline: '2 Weeks',
+    services: ['Web Development', 'DeSci Development', 'UI/UX'],
+    techStack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Gemini AI', 'Web3'],
+    outcomes:
+      'Created an innovative platform that brings decentralized science principles to academic peer review. Features include paper indexing, community reviews with token rewards, AI-powered analysis, leaderboards, and a roadmap for Web3 integration including IPFS storage and on-chain attestations.',
+    createdAt: '2025-11-26',
+  },
+  {
     id: '2',
     slug: 'e-commerce-platform',
     name: 'E-commerce Platform',

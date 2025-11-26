@@ -633,3 +633,11 @@ console.log('Mock mode:', import.meta.env.VITE_USE_MOCK);
 Made with ❤️ by [Your Name]
 
 
+
+
+
+
+
+
+
+
